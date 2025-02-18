@@ -1,40 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INDYARTZ - Ultimate Artist Hub</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+/* General Styles */
+body {
+    background-color: #0a0a0a;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
 
-    <!-- HEADER -->
-    <header>
-        <div class="logo">
-            <img src="assets/app-icon.png" alt="INDYARTZ Logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="music.html">Music</a></li>
-                <li><a href="upload.html">Upload</a></li>
-                <li><a href="profile.html">Profile</a></li>
-            </ul>
-        </nav>
-    </header>
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-bottom: 2px solid #ff00ff;
+}
 
-    <!-- MAIN BANNER -->
-    <section class="hero">
-        <h1>Welcome to INDYARTZ</h1>
-        <p>The ultimate hub for artists, musicians, and creators.</p>
-        <button onclick="location.href='upload.html'">Get Started</button>
-    </section>
+.logo img {
+    width: 50px;
+}
 
-    <!-- FOOTER -->
-    <footer>
-        <p>© 2025 INDYARTZ. All rights reserved.</p>
-    </footer>
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
 
-    <script src="script.js"></script>
-</body>
-</html>
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('assets/hero-background.jpg') no-repeat center center/cover;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.hero-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    background: linear-gradient(90deg, #ff00ff, #00ffff);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.hero button {
+    padding: 15px 30px;
+    background: #ff00ff;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+/* Main Content */
+.content {
+    padding: 40px 20px;
+}
+
+.content h2 {
+    color: #ff00ff;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.9);
+    color: #ccc;
+    font-size: 14px;
+}
