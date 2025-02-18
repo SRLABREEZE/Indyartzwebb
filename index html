@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INDYARTZ - Ultimate Artist Hub</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>INDYARTZ - The Artist Hub</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,18 +16,18 @@
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="music.html">Music</a></li>
-                <li><a href="upload.html">Upload</a></li>
-                <li><a href="profile.html">Profile</a></li>
+                <li><a href="pages/music.html">Music</a></li>
+                <li><a href="pages/upload.html">Upload</a></li>
+                <li><a href="pages/profile.html">Profile</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- MAIN BANNER -->
+    <!-- MAIN SECTION -->
     <section class="hero">
         <h1>Welcome to INDYARTZ</h1>
-        <p>The ultimate hub for artists, musicians, and creators.</p>
-        <button onclick="location.href='upload.html'">Get Started</button>
+        <p>The ultimate platform for artists, musicians, and content creators.</p>
+        <button onclick="window.location.href='pages/upload.html'">Get Started</button>
     </section>
 
     <!-- FOOTER -->
