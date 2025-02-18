@@ -3,84 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INDYARTZ</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/png" href="assets/app-icon.png">
+    <title>INDYARTZ - Ultimate Artist Hub</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header Section -->
-    <header class="header">
+    <!-- HEADER -->
+    <header>
         <div class="logo">
             <img src="assets/app-icon.png" alt="INDYARTZ Logo">
         </div>
-        <nav class="nav">
+        <nav>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#features">Features</a></li>
-                <li><a href="#pricing">Pricing</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="upload.html">Upload</a></li>
+                <li><a href="profile.html">Profile</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section -->
+    <!-- MAIN BANNER -->
     <section class="hero">
-        <div class="hero-content">
-            <h1>Welcome to INDYARTZ</h1>
-            <p>The Ultimate Artist Hub for Music, Networking, and Promotion.</p>
-            <a href="#get-started" class="cta-button">Get Started</a>
-        </div>
+        <h1>Welcome to INDYARTZ</h1>
+        <p>The ultimate hub for artists, musicians, and creators.</p>
+        <button onclick="location.href='upload.html'">Get Started</button>
     </section>
 
-    <!-- Features Section -->
-    <section id="features" class="features">
-        <h2>Why Choose INDYARTZ?</h2>
-        <div class="feature-grid">
-            <div class="feature">
-                <img src="assets/badge-verified.png" alt="Verified Badge">
-                <h3>Verified Artist Profiles</h3>
-                <p>Get recognized with our custom verification badges.</p>
-            </div>
-            <div class="feature">
-                <img src="assets/badge-ambassador.png" alt="Ambassador Badge">
-                <h3>Ambassador Program</h3>
-                <p>Earn rewards by promoting the INDYARTZ platform.</p>
-            </div>
-            <div class="feature">
-                <img src="assets/music-streaming.png" alt="Streaming">
-                <h3>Built-in Music Streaming</h3>
-                <p>Distribute your music directly from our platform.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Pricing Section -->
-    <section id="pricing" class="pricing">
-        <h2>Flexible Pricing Plans</h2>
-        <div class="pricing-cards">
-            <div class="pricing-card">
-                <h3>Free Plan</h3>
-                <p>Basic access to networking features.</p>
-                <span>$0/month</span>
-            </div>
-            <div class="pricing-card">
-                <h3>Pro Plan</h3>
-                <p>Unlock music uploads & exclusive tools.</p>
-                <span>$12/month</span>
-            </div>
-            <div class="pricing-card">
-                <h3>Premium Plan</h3>
-                <p>Full access to all features & distribution.</p>
-                <span>$29/month</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <p>© 2024 INDYARTZ. All rights reserved.</p>
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 INDYARTZ. All rights reserved.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
