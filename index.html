@@ -4,19 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INDYARTZ - The Ultimate Artist Hub</title>
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="icon" href="assets/app-icon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- HEADER / NAVIGATION -->
-    <header>
-        <div class="logo">
-            <img src="assets/logo.png" alt="INDYARTZ Logo">
-        </div>
+    <!-- HEADER -->
+    <header class="neon-header">
+        <h1>INDYARTZ</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="pages/music.html">Music</a></li>
                 <li><a href="pages/upload.html">Upload</a></li>
                 <li><a href="pages/profile.html">Profile</a></li>
@@ -27,31 +24,30 @@
     <!-- HERO SECTION -->
     <section class="hero">
         <div class="hero-content">
-            <h1>INDYARTZ</h1>
-            <p>The ultimate platform for artists, musicians, and creators.</p>
-            <button onclick="window.location.href='upload.html'">Get Started</button>
+            <h2>Futuristic Sound, Limitless Creativity</h2>
+            <p>Join the ultimate artist hub & showcase your music.</p>
+            <button class="cta">Get Started</button>
         </div>
     </section>
 
-    <!-- FEATURES SECTION -->
+    <!-- FEATURED SECTION -->
     <section class="features">
-        <h2>What Makes INDYARTZ Unique?</h2>
-        <div class="feature-grid">
-            <div class="feature-item">
-                <img src="assets/music-icon.png" alt="Music">
-                <h3>Upload & Stream</h3>
-                <p>Share your music with the world and get discovered.</p>
-            </div>
-            <div class="feature-item">
-                <img src="assets/collaboration-icon.png" alt="Collaboration">
-                <h3>Collaboration Hub</h3>
-                <p>Find and connect with other talented artists.</p>
-            </div>
-            <div class="feature-item">
-                <img src="assets/verified-badge.png" alt="Verified">
-                <h3>Get Verified</h3>
-                <p>Earn credibility with our verification system.</p>
-            </div>
+        <div class="feature-box">
+            <img src="assets/verified-badge.png" alt="Verified Artist">
+            <h3>Verified Artist</h3>
+            <p>Exclusive recognition for top creators.</p>
+        </div>
+
+        <div class="feature-box">
+            <img src="assets/music-icon.png" alt="Streaming">
+            <h3>Stream & Earn</h3>
+            <p>Monetize your music like never before.</p>
+        </div>
+
+        <div class="feature-box">
+            <img src="assets/collab-icon.png" alt="Collaboration Hub">
+            <h3>Collaboration Hub</h3>
+            <p>Connect with artists worldwide.</p>
         </div>
     </section>
 
@@ -60,5 +56,6 @@
         <p>© 2025 INDYARTZ. All Rights Reserved.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
