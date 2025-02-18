@@ -1,3 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-    console.log("INDYARTZ Loaded!");
+document.querySelector(".cta").addEventListener("click", function() {
+    alert("Welcome to INDYARTZ! Start your journey now.");
 });
